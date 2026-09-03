@@ -30,7 +30,7 @@ cd EFAN
 pip install -r requirements.txt
 
 
-```markdown
+
 ## 📈 Results
 
 ### University‑1652
