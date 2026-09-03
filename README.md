@@ -30,7 +30,7 @@ cd EFAN
 pip install -r requirements.txt
 
 
-
+---
 ## 📈 Results
 
 ### University‑1652
