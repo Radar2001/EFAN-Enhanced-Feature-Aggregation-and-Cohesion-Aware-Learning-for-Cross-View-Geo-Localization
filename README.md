@@ -23,7 +23,7 @@ We recommend using a virtual environment with Python 3.8+ and PyTorch 1.9+.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/EFAN.git
+git clone https://github.com/Radar2001/EFAN-Enhanced-Feature-Aggregation-and-Cohesion-Aware-Learning-for-Cross-View-Geo-Localization.git
 cd EFAN
 
 # Install dependencies
