@@ -28,3 +28,25 @@ cd EFAN
 
 # Install dependencies
 pip install -r requirements.txt
+
+
+```markdown
+## 📈 Results
+
+### University‑1652
+
+| Method | R@1 (Drone→Sat) | AP (Drone→Sat) | R@1 (Sat→Drone) | AP (Sat→Drone) |
+|--------|----------------|----------------|----------------|----------------|
+| Ours (EFAN) | **96.03** | **96.72** | **97.15** | **95.79** |
+
+### SUES‑200 (Drone→Satellite, R@1)
+
+| Altitude | 150m | 200m | 250m | 300m |
+|----------|------|------|------|------|
+| Ours (EFAN) | **98.40** | **99.58** | **99.63** | **99.80** |
+
+### DenseUAV (Drone→Satellite)
+
+| Method | R@1 | R@5 | SDM@1 |
+|--------|-----|-----|-------|
+| Ours (EFAN) | **99.01** | **99.74** | **99.20** |
