@@ -16,21 +16,6 @@ This repository is the official implementation of **EFAN**, a novel deep learnin
 - **Complementary Feature Aggregation (CFA)** – explicitly fuses robust global semantics from the backbone with discriminative local details from S³EM.
 - **Cohesion-Aware Adaptive Hybrid Loss (CAAHL)** – dynamically balances InfoNCE and Circle losses based on batch-wise feature cohesion, adapting optimization to the current feature space state.
 - **State-of-the-art performance** – achieves **R@1 > 99%** on the challenging DenseUAV benchmark and outperforms all existing methods on University‑1652 and SUES‑200.
-
-## 📦 Environment Setup
-
-We recommend using a virtual environment with Python 3.8+ and PyTorch 1.9+.
-
-```bash
-# Clone the repository
-git clone https://github.com/Radar2001/EFAN-Enhanced-Feature-Aggregation-and-Cohesion-Aware-Learning-for-Cross-View-Geo-Localization.git
-cd EFAN
-
-# Install dependencies
-pip install -r requirements.txt
-
-
----
 ## 📈 Results
 
 ### University‑1652
@@ -50,3 +35,19 @@ pip install -r requirements.txt
 | Method | R@1 | R@5 | SDM@1 |
 |--------|-----|-----|-------|
 | Ours (EFAN) | **99.01** | **99.74** | **99.20** |
+
+## 📦 Environment Setup
+
+We recommend using a virtual environment with Python 3.8+ and PyTorch 1.9+.
+
+```bash
+# Clone the repository
+git clone https://github.com/Radar2001/EFAN-Enhanced-Feature-Aggregation-and-Cohesion-Aware-Learning-for-Cross-View-Geo-Localization.git
+cd EFAN
+
+# Install dependencies
+pip install -r requirements.txt
+
+
+
+
